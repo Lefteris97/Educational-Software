@@ -1,0 +1,28 @@
+/* .lessonDetails{ */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+/* } */
+
+.lessonTitle{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.lessonContent{
+    margin-bottom: 30px;
+    text-indent: 30px;
+}
+
+.backContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.backLink{
+    outline: auto;
+    padding: 10px;
+}
