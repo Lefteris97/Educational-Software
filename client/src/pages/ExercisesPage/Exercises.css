@@ -1,0 +1,79 @@
+.exHeader {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.exercisesList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: hsl(0, 0%, 100%);
+    border-radius: 5px; */
+}
+
+.exerciseItem {
+    display: flex;
+    /* justify-content: space-between; */
+    /* width: 900px; */
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px ;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.exerciseName {
+    /* flex: 1; */
+    width: 400px;
+    margin-right: 10px; 
+    /* background-color: darkgoldenrod; */
+}
+
+.exerciseFile {
+    width: 100px;
+    text-align: center; 
+    margin-right: 10px; 
+    /* background-color: aqua; */
+}
+
+.uploadAnswer {
+    width: 500px; 
+    display: flex;
+    margin-right: 10px; 
+    align-items: center;
+    justify-content: center;
+    /* background-color: burlywood; */
+    gap: 5x;
+}
+
+.answerLabel{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+}
+
+.uploadAnswer button{
+    /* color: blue; */
+    outline: auto;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.uploadAnswer button:hover{
+    background-color: hsl(0, 0%, 93%);
+}
+
+.exerciseGrade {
+    width: 100px; 
+    text-align: center; 
+    /* margin-right: 10px;  */
+    /* background-color: darkolivegreen; */
+}
+
+.uploadAnswer button:disabled,
+.uploadAnswer input:disabled {
+    cursor: not-allowed;
+}
